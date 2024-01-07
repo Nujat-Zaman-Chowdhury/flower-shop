@@ -39,10 +39,9 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-.banner-text *
-{
-    margin-bottom: 32px;
-    max-width: 525px;
+.banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
 }
 .banner-text h1 {
   color: #272727;
@@ -52,8 +51,95 @@ header {
   font-weight: 800;
   line-height: normal;
 }
-.banner-img img{
-    width: 100%;
-    vertical-align: middle;
+.banner-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+#featured {
+  padding: 100px 0px;
+}
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 30px auto;
+}
+.section-heading h2 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+}
 
+.flower-img {
+  border-radius: 300px 300px 0px 0px;
+  /* background: rgba(167, 33, 98, 0.15); */
+  display: flex;
+  align-items: end;
+  padding: 30px 25px 0px;
+  height: 500px;
+}
+.flower-img img {
+  width: 100%;
+}
+.section-content .flower p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 16px;
+  line-height: 30px; /* 166.667% */
+}
+
+.section-content .flower .color1 {
+  background: rgba(219, 76, 145, 0.15);
+}
+.section-content .flower .color2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .color3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+#part-2 .container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.support-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 40px;
+
+    
+}
+.support-section .support-section-img{
+    text-align: center;
+    margin: 30px auto;
+    
+}
+.support-section-img img{
+    width: 88px;
+height: 88px;
+}
+.support-section-img p{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 145.833% */
 }
